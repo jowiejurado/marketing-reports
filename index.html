@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Growth Plan Presentation</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+
+            font-family: 'Inter', sans-serif;
+
+            background-color: #030712; /* Even darker gray */
+
+        }
+
+        .slide {
+
+            display: none;
+
+        }
+
+        .slide.active {
+
+            display: block;
+
+        }
+
+        .slide-content {
+
+            animation: fadeIn 0.6s ease-in-out;
+
+            border: 1px solid rgba(255, 255, 255, 0.1);
+
+        }
+
+        @keyframes fadeIn {
+
+            from { opacity: 0; transform: translateY(15px); }
+
+            to { opacity: 1; transform: translateY(0); }
+
+        }
+
+        .data-card {
+
+            background-color: #1f2937; /* bg-gray-800 */
+
+            border: 1px solid #374151; /* border-gray-700 */
+
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        }
+
+        .data-card:hover {
+
+            transform: translateY(-5px);
+
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+
+        }
+
+        .kpi-bar-bg {
+
+            background-color: #374151;
+
+        }
+
+        .kpi-bar {
+
+            transition: width 1s ease-in-out;
+
+        }
+
+        .special-card {
+
+            background-color: #111827; /* bg-gray-900 */
+
+            border: 1px solid #374151; /* border-gray-700 */
+
+        }
+
+        .rank-good { color: #4ade80; } /* green-400 */
+
+        .rank-ok { color: #facc15; } /* yellow-400 */
+
+        .rank-poor { color: #f87171; } /* red-400 */
+
+ 
+
+    </style>
+
+</head>
+
+<body class="text-gray-200 antialiased">
+
+ 
+
+    <div id="presentation-container" class="max-w-6xl mx-auto p-4 md:p-8">
+
+ 
+
+        <!-- Slide 1: Title -->
+
+        <div id="slide-1" class="slide active">
+
+            <div class="slide-content text-center min-h-[80vh] flex flex-col justify-center items-center bg-gray-900 rounded-2xl p-8 shadow-2xl">
+
+                <h1 class="text-5xl md:text-7xl font-black tracking-tighter leading-tight">From Data to <span class="bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-purple-500">Dominance</span></h1>
+
+                <p class="mt-4 text-xl md:text-2xl text-gray-300 max-w-3xl">A Data-Backed Growth Strategy to Capture the Houston Nightlife Market</p>
+
+                <p class="mt-6 text-lg text-gray-400">This is a high-level snapshot. We will explore each data point and strategy in detail throughout this presentation.</p>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 2: The Opportunity Explained -->
+
+        <div id="slide-2" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">What the Data is Telling Us (In Simple Terms)</h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <div class="data-card p-6 rounded-lg flex flex-col">
+
+                        <h3 class="font-bold text-lg mb-2 text-purple-400">You're Already Winning at Hookah</h3>
+
+                        <p class="text-gray-300">The data shows you rank #8 for "hookah lounge houston." This is great! It means we have a proven winner to build on.</p>
+
+                        <div class="mt-auto pt-4">
+
+                           <p class="text-3xl font-bold text-green-400">2,900</p>
+
+                           <p class="text-gray-400">Potential customers searching this each month.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="data-card p-6 rounded-lg flex flex-col">
+
+                        <h3 class="font-bold text-lg mb-2 text-orange-400">There's an Untapped Music Scene</h3>
+
+                        <p class="text-gray-300">You rank on page 2 or 3 for "zydeco" and "r&b clubs." This is a hidden goldmine. With a little effort, we can get to page 1 and capture this audience.</p>
+
+                        <div class="mt-auto pt-4">
+
+                           <p class="text-3xl font-bold text-green-400">1,500+</p>
+
+                           <p class="text-gray-400">People searching for this music every month.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="data-card p-6 rounded-lg flex flex-col">
+
+                        <h3 class="font-bold text-lg mb-2 text-blue-400">People Want to Book Parties</h3>
+
+                        <p class="text-gray-300">Your ranking for party-related searches is low (#50+). This is a huge, untapped source of revenue we can capture with dedicated booking pages.</p>
+
+                        <div class="mt-auto pt-4">
+
+                           <p class="text-3xl font-bold text-green-400">~800</p>
+
+                           <p class="text-gray-400">High-value party searches per month.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="data-card p-6 rounded-lg flex flex-col">
+
+                        <h3 class="font-bold text-lg mb-2 text-red-400">Your Website Needs More "Clout"</h3>
+
+                        <p class="text-gray-300">Your "Authority Score" (your website's reputation with Google) is 11, while competitors are at 34. This is our biggest opportunity. By strengthening it, all our rankings will rise.</p>
+
+                        <div class="mt-auto pt-4">
+
+                           <p class="text-3xl font-bold text-white">Fixing this lifts everything.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 3: The Traffic Problem (REFORMATTED) -->
+
+        <div id="slide-3" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">The Hard Truth: Our Current Traffic Situation</h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">Our digital front door is closed to thousands of potential customers.</p>
+
+                <div class="grid md:grid-cols-2 gap-8">
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="text-xl font-bold text-center text-orange-400 mb-4">Chicago Bar & Grill Traffic</h3>
+
+                        <div class="relative h-48 bg-gray-900/50 rounded-lg p-4">
+
+                            <svg class="absolute bottom-0 left-0 w-full h-full" viewBox="0 0 200 100" preserveAspectRatio="none">
+
+                                <path d="M 0 80 C 40 70, 80 75, 120 50 S 160 40, 200 45" fill="none" stroke="#f97316" stroke-width="4" stroke-linecap="round"/>
+
+                            </svg>
+
+                        </div>
+
+                        <div class="mt-4 text-center">
+
+                            <p class="text-4xl font-black text-white">1,200 <span class="text-red-500">→</span> 720</p>
+
+                            <p class="text-gray-400">Monthly Organic Visitors (Peak vs. Now)</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="text-xl font-bold text-center text-purple-400 mb-4">Shades Traffic</h3>
+
+                        <div class="relative h-48 bg-gray-900/50 rounded-lg p-4">
+
+                             <svg class="absolute bottom-0 left-0 w-full h-full" viewBox="0 0 200 100" preserveAspectRatio="none">
+
+                                <path d="M 0 95 C 40 95, 80 95, 120 95 S 160 95, 200 95" fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round"/>
+
+                            </svg>
+
+                        </div>
+
+                        <div class="mt-4 text-center">
+
+                            <p class="text-4xl font-black text-white">&lt; 50</p>
+
+                            <p class="text-gray-400">Monthly Organic Visitors</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 4: Keyword Expansion (REFORMATTED) -->
+
+        <div id="slide-4" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Expanding Our Reach: More Keyword Opportunities</h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">Beyond the obvious, people are searching for experiences we provide. We will target these next.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+                    <div class="data-card p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-orange-400">For CBAG</h3>
+
+                        <p class="text-lg">"dancing in houston" <span class="font-bold text-green-400 float-right">720/mo</span></p>
+
+                        <p class="mt-2 text-lg">"live music near me tonight" <span class="font-bold text-green-400 float-right">2,400/mo</span></p>
+
+                        <p class="mt-2 text-lg">"best bars for singles" <span class="font-bold text-green-400 float-right">1,300/mo</span></p>
+
+                        <p class="mt-2 text-lg">"bars with live music houston" <span class="font-bold text-green-400 float-right">480/mo</span></p>
+
+                    </div>
+
+                    <div class="data-card p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-purple-400">For Shades</h3>
+
+                        <p class="text-lg">"best hookah flavors" <span class="font-bold text-green-400 float-right">8,100/mo</span></p>
+
+                        <p class="mt-2 text-lg">"shisha lounge near me" <span class="font-bold text-green-400 float-right">5,400/mo</span></p>
+
+                        <p class="mt-2 text-lg">"late night food houston" <span class="font-bold text-green-400 float-right">2,900/mo</span></p>
+
+                        <p class="mt-2 text-lg">"hookah lounge open now" <span class="font-bold text-green-400 float-right">1,600/mo</span></p>
+
+                    </div>
+
+                    <div class="data-card p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-blue-400">For Both</h3>
+
+                        <p class="text-lg">"birthday party venues" <span class="font-bold text-green-400 float-right">1,900/mo</span></p>
+
+                        <p class="mt-2 text-lg">"happy hour specials" <span class="font-bold text-green-400 float-right">4,400/mo</span></p>
+
+                        <p class="mt-2 text-lg">"date night ideas houston" <span class="font-bold text-green-400 float-right">590/mo</span></p>
+
+                        <p class="mt-2 text-lg">"private party rooms" <span class="font-bold text-green-400 float-right">390/mo</span></p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 5: Current Rankings (REFORMATTED) -->
+
+        <div id="slide-5" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Where We Stand Today: Current Keyword Rankings</h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">A snapshot of our current positions on Google. This is our baseline.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="text-2xl font-bold text-orange-400 mb-4 text-center">Chicago Bar & Grill</h3>
+
+                        <div class="space-y-3">
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"chicago bar and grill htx"</p><p class="text-2xl font-black rank-good">#1</p></div>
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"dance clubs in houston tx"</p><p class="text-2xl font-black rank-ok">#21</p></div>
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"zydeco in houston"</p><p class="text-2xl font-black rank-ok">#20</p></div>
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"r&b clubs in houston"</p><p class="text-2xl font-black rank-poor">#47</p></div>
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"steak night houston"</p><p class="text-2xl font-black rank-poor">#50+</p></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="text-2xl font-bold text-purple-400 mb-4 text-center">Shades</h3>
+
+                        <div class="space-y-3">
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"shades bar and grill"</p><p class="text-2xl font-black rank-good">#1</p></div>
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"hookah lounge houston"</p><p class="text-2xl font-black rank-good">#8</p></div>
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"hookah bars in houston"</p><p class="text-2xl font-black rank-ok">#13</p></div>
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"lounge near me"</p><p class="text-2xl font-black rank-ok">#28</p></div>
+
+                            <div class="flex justify-between items-baseline p-2 rounded bg-gray-900/50"><p class="text-lg">"best hookah flavors"</p><p class="text-2xl font-black rank-poor">#50+</p></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 6: The "Two-in-One" Website Strategy -->
+
+        <div id="slide-6" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Why We Must Consolidate: The Power of One</h2>
+
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+
+                    <div class="bg-gray-800 p-6 rounded-lg border border-red-500/50">
+
+                        <h3 class="text-xl font-bold text-center text-red-400 mb-4">BEFORE: Diluted Power</h3>
+
+                        <div class="text-center">
+
+                            <p>Two separate websites splitting your marketing power.</p>
+
+                            <p class="text-4xl my-4">Site A (Score: 11) + Site B (Score: 9)</p>
+
+                            <p class="text-gray-400">Every ad, link, and social media post is divided. It's like trying to fill two buckets with one hose. You build reputation slowly and inefficiently.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg border border-green-500/50">
+
+                        <h3 class="text-xl font-bold text-center text-green-400 mb-4">AFTER: Consolidated Authority</h3>
+
+                         <div class="text-center">
+
+                            <p>One powerful website for both brands.</p>
+
+                            <p class="text-4xl my-4">One Site (Score: 20+)</p>
+
+                            <p class="text-gray-400">All marketing power flows to one domain. Google sees you as a stronger authority. This single change lifts all rankings faster than any other action.</p>
+
+                            <ul class="text-left list-disc list-inside mt-4 text-gray-300">
+
+                                <li>Online Party Booking System</li>
+
+                                <li>Online Food To-Go Ordering</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <!-- Slide 7: Brand Strategy -->
+
+        <div id="slide-7" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Our Two-Pronged Brand Strategy</h2>
+
+                <div class="grid md:grid-cols-2 gap-8 items-start">
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="text-xl font-bold text-center text-orange-400 mb-4">CBAG: Reinforce the Foundation</h3>
+
+                        <ul class="space-y-3 list-disc list-inside text-gray-300">
+
+                            <li>Solidify identity as "Houston's Ultimate Dance Club."</li>
+
+                            <li>Dominate the R&B and Zydeco music niche by creating dedicated web pages and blog content.</li>
+
+                            <li>Use event-driven marketing (Live Band Sunday) to generate a constant stream of fresh, relevant content.</li>
+
+                            <li>Leverage existing brand recognition to capture high-intent searches for dance classes and live music.</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="text-xl font-bold text-center text-purple-400 mb-4">Shades: Build a New Following</h3>
+
+                         <ul class="space-y-3 list-disc list-inside text-gray-300">
+
+                            <li>Establish a clear identity as "The Modern Hookah Lounge."</li>
+
+                            <li>Aggressively target and dominate all "hookah" related keywords, building on our current #8 rank.</li>
+
+                            <li>Focus on creating a unique, "Instagrammable" experience to fuel social media growth.</li>
+
+                            <li>Build a community from the ground up through targeted ads and content that answers hookah-related questions.</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 8: Wednesday Specials -->
+
+        <div id="slide-8" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-2">Wednesday: <span class="text-green-400">Capture the Mid-Week Crowd</span></h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">Targeting specific class-takers and deal-seekers.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                    <div class="special-card p-6 rounded-lg">
+
+                        <h3 class="text-2xl font-bold text-orange-400 mb-4">CBAG: Dance Workshop Wednesday</h3>
+
+                        <p class="text-lg">$5 Rotating Dance Class, $1 Wings, $5 Whiskeys</p>
+
+                        <div class="mt-4 pt-4 border-t border-gray-700">
+
+                            <p class="font-semibold text-gray-300">Targeting:</p>
+
+                            <p class="text-lg">"line dance classes houston" <span class="font-bold text-green-400 float-right">210/mo</span></p>
+
+                            <p class="text-lg">"zydeco lessons" <span class="font-bold text-green-400 float-right">90/mo</span></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="special-card p-6 rounded-lg">
+
+                        <h3 class="text-2xl font-bold text-purple-400 mb-4">Shades: Margs & Apps</h3>
+
+                        <p class="text-lg">$20 Premium Hookahs, Half-Price Apps, $7 Margs</p>
+
+                         <div class="mt-4 pt-4 border-t border-gray-700">
+
+                            <p class="font-semibold text-gray-300">Targeting:</p>
+
+                            <p class="text-lg">"hookah deals houston" <span class="font-bold text-green-400 float-right">110/mo</span></p>
+
+                            <p class="text-lg">"wednesday night specials" <span class="font-bold text-green-400 float-right">390/mo</span></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <!-- Slide 9: Thursday Specials -->
+
+        <div id="slide-9" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-2">Thursday: <span class="text-green-400">Own the Pre-Weekend Vibe</span></h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">Attracting music lovers and the craft cocktail scene.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                    <div class="special-card p-6 rounded-lg">
+
+                        <h3 class="text-2xl font-bold text-orange-400 mb-4">CBAG: Burgers & Beats</h3>
+
+                        <p class="text-lg">$12 "Build-a-Burger," $8 Signature Cocktails</p>
+
+                        <div class="mt-4 pt-4 border-t border-gray-700">
+
+                            <p class="font-semibold text-gray-300">Targeting:</p>
+
+                            <p class="text-lg">"r&b clubs in houston" <span class="font-bold text-green-400 float-right">590/mo</span></p>
+
+                            <p class="text-lg">"thursday night drink specials" <span class="font-bold text-green-400 float-right">260/mo</span></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="special-card p-6 rounded-lg">
+
+                        <h3 class="text-2xl font-bold text-purple-400 mb-4">Shades: Craft Night</h3>
+
+                        <p class="text-lg">Gourmet Sliders, $6 Craft Shots, $20 Hookahs</p>
+
+                         <div class="mt-4 pt-4 border-t border-gray-700">
+
+                            <p class="font-semibold text-gray-300">Targeting:</p>
+
+                            <p class="text-lg">"craft cocktails houston" <span class="font-bold text-green-400 float-right">480/mo</span></p>
+
+                            <p class="text-lg">"thursday specials near me" <span class="font-bold text-green-400 float-right">320/mo</span></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 10: Friday Specials -->
+
+        <div id="slide-10" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-2">Friday: <span class="text-green-400">Become the Go-To Date Night</span></h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">A unified, high-value offer to capture the premium Friday crowd.</p>
+
+                <div class="grid grid-cols-1 gap-8">
+
+                    <div class="special-card p-6 rounded-lg bg-gradient-to-r from-orange-900/50 via-gray-900 to-purple-900/50">
+
+                        <h3 class="text-2xl font-bold text-white mb-4">Both Venues: Steak & Sips Friday</h3>
+
+                        <p class="text-lg">$28 12oz Ribeye Plate, $10 Espresso Martinis & Old Fashioneds</p>
+
+                        <div class="mt-4 pt-4 border-t border-gray-700">
+
+                            <p class="font-semibold text-gray-300">Targeting:</p>
+
+                            <p class="text-lg">"steak night houston" <span class="font-bold text-green-400 float-right">1,300/mo</span></p>
+
+                            <p class="text-lg">"friday night date ideas" <span class="font-bold text-green-400 float-right">590/mo</span></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 11: Saturday Specials -->
+
+        <div id="slide-11" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-2">Saturday: <span class="text-green-400">Dominate Group Outings</span></h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">Specials built for sharing to attract large, high-spending groups.</p>
+
+                 <div class="grid grid-cols-1 gap-8">
+
+                    <div class="special-card p-6 rounded-lg bg-gradient-to-r from-orange-900/50 via-gray-900 to-purple-900/50">
+
+                        <h3 class="text-2xl font-bold text-white mb-4">Both Venues: Social Platter Saturday</h3>
+
+                        <p class="text-lg">$35 Social Platters, $25 Cocktail Pitchers, $6 Lemon Drops</p>
+
+                        <div class="mt-4 pt-4 border-t border-gray-700">
+
+                            <p class="font-semibold text-gray-300">Targeting:</p>
+
+                            <p class="text-lg">"saturday night houston" <span class="font-bold text-green-400 float-right">880/mo</span></p>
+
+                            <p class="text-lg">"bar with pitchers" <span class="font-bold text-green-400 float-right">1,000/mo</span></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 12: Sunday Specials -->
+
+        <div id="slide-12" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-2">Sunday: <span class="text-green-400">The Ultimate Wind-Down Spot</span></h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">Catering to both the live music crowd and the brunch/chill scene.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                    <div class="special-card p-6 rounded-lg">
+
+                        <h3 class="text-2xl font-bold text-orange-400 mb-4">CBAG: Live Band Sunday</h3>
+
+                        <p class="text-lg">$30 Game Day Platters, $20 Beer Buckets, Live R&B Band</p>
+
+                        <div class="mt-4 pt-4 border-t border-gray-700">
+
+                            <p class="font-semibold text-gray-300">Targeting:</p>
+
+                            <p class="text-lg">"live music houston sunday" <span class="font-bold text-green-400 float-right">320/mo</span></p>
+
+                            <p class="text-lg">"late night happy hour" <span class="font-bold text-green-400 float-right">1,300/mo</span></p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="special-card p-6 rounded-lg">
+
+                        <h3 class="text-2xl font-bold text-purple-400 mb-4">Shades: Sunday Social</h3>
+
+                        <p class="text-lg">$20 Brunch Burger & Mimosas, Reverse Happy Hour</p>
+
+                         <div class="mt-4 pt-4 border-t border-gray-700">
+
+                            <p class="font-semibold text-gray-300">Targeting:</p>
+
+                            <p class="text-lg">"sunday brunch near me" <span class="font-bold text-green-400 float-right">1,900/mo</span></p>
+
+                            <p class="text-lg">"chill sunday spots houston" <span class="font-bold text-green-400 float-right">110/mo</span></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 13: The Blog Strategy -->
+
+        <div id="slide-13" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-2">The Blog: Our SEO Content Powerhouse</h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">The blog isn't just for updates; it's a magnet for new customers from Google.</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-blue-400">Event Recaps & Hype</h3>
+
+                        <p>After every "Live Band Sunday," we post a blog titled "Recap: [Band Name] Rocked CBAG." This attracts fans of the band and people searching for "live music."</p>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-blue-400">"Best Of" & "Top 5" Lists</h3>
+
+                        <p>We'll write posts like "Top 5 Places for Zydeco Dancing in Houston." This establishes us as an authority and captures people looking for recommendations.</p>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-blue-400">Answering Customer Questions</h3>
+
+                        <p>We'll create content that directly answers what people search for, like "Where Can I Learn Line Dancing in Houston?" or "Best Hookah Flavors to Try."</p>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-blue-400">Behind the Scenes</h3>
+
+                        <p>We'll introduce your expert bartenders and show how we make a signature cocktail. This builds a personal connection and a loyal community.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 14: Targeted Ad Strategy -->
+
+        <div id="slide-14" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Precision-Targeted Digital Ads</h2>
+
+                <p class="text-center text-lg text-gray-400 mb-8">While we build organic rankings, we'll run strategic ads to capture immediate revenue.</p>
+
+                <div class="bg-gray-800 rounded-lg p-8 grid md:grid-cols-2 gap-8 items-center">
+
+                    <div>
+
+                        <h3 class="font-bold text-2xl mb-4">Example: The "Hookah" Campaign</h3>
+
+                        <div class="space-y-4">
+
+                            <p><strong class="text-purple-400">Audience:</strong> Users on Facebook/Instagram in Houston, age 21-35, with interests in "Hookah," "Shisha," or "Lounges."</p>
+
+                            <p><strong class="text-purple-400">Ad Creative:</strong> A visually stunning video of a premium hookah with an irresistible offer.</p>
+
+                            <p><strong class="text-purple-400">The Goal:</strong> Pull searchers away from competitors with a direct offer, driving immediate foot traffic.</p>
+
+                             <p><strong class="text-purple-400">Estimated CPC:</strong> ~$1.25. A single $20 hookah special makes this instantly profitable.</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bg-black/20 rounded-lg p-4 border border-purple-500/50">
+
+                        <p class="font-bold">Shades on Instagram</p>
+
+                        <div class="mt-2 bg-gray-900 h-48 rounded-md flex items-center justify-center text-purple-400 font-bold">[Sleek video of hookah smoke]</div>
+
+                        <p class="text-md mt-2 font-bold">Your search is over. Tap to claim our $20 Premium Hookah special.</p>
+
+                        <p class="text-xs text-gray-400 mt-1">Sponsored • Houston, TX</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <!-- Slide 15: KPIs & Roadmap -->
+
+        <div id="slide-15" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Our 6-Month SEO Roadmap & KPIs</h2>
+
+                <div class="space-y-6">
+
+                    <!-- KPI Item -->
+
+                    <div>
+
+                        <div class="flex justify-between items-center mb-1">
+
+                            <p class="font-bold text-lg text-purple-400">"hookah lounge houston" <span class="text-sm text-gray-400">(2,900/mo)</span></p>
+
+                            <p class="text-sm font-semibold">Goal: #8 → #3</p>
+
+                        </div>
+
+                        <div class="w-full kpi-bar-bg rounded-full h-4">
+
+                            <div class="bg-gradient-to-r from-purple-500 to-pink-500 h-4 rounded-full kpi-bar" data-width="30%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- KPI Item -->
+
+                    <div>
+
+                        <div class="flex justify-between items-center mb-1">
+
+                            <p class="font-bold text-lg text-orange-400">"r&b clubs in houston" <span class="text-sm text-gray-400">(590/mo)</span></p>
+
+                            <p class="text-sm font-semibold">Goal: #47 → #5</p>
+
+                        </div>
+
+                        <div class="w-full kpi-bar-bg rounded-full h-4">
+
+                             <div class="bg-gradient-to-r from-orange-500 to-red-500 h-4 rounded-full kpi-bar" data-width="10%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- KPI Item -->
+
+                    <div>
+
+                        <div class="flex justify-between items-center mb-1">
+
+                            <p class="font-bold text-lg text-orange-400">"zydeco in houston" <span class="text-sm text-gray-400">(320/mo)</span></p>
+
+                            <p class="text-sm font-semibold">Goal: #20 → #5</p>
+
+                        </div>
+
+                        <div class="w-full kpi-bar-bg rounded-full h-4">
+
+                             <div class="bg-gradient-to-r from-orange-500 to-red-500 h-4 rounded-full kpi-bar" data-width="20%"></div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- KPI Item -->
+
+                    <div>
+
+                        <div class="flex justify-between items-center mb-1">
+
+                            <p class="font-bold text-lg text-blue-400">"bar for party houston" <span class="text-sm text-gray-400">(320/mo)</span></p>
+
+                            <p class="text-sm font-semibold">Goal: #50+ → #8</p>
+
+                        </div>
+
+                        <div class="w-full kpi-bar-bg rounded-full h-4">
+
+                             <div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-4 rounded-full kpi-bar" data-width="5%"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                 <div class="mt-12 text-center">
+
+                    <h3 class="text-xl font-bold">Primary Goal: Increase Authority Score from 11 to 25+</h3>
+
+                    <p class="text-gray-400">This will lift all keyword rankings and drive significant organic traffic.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 16: Radio vs. Digital -->
+
+        <div id="slide-16" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">The Smart Shift: Radio vs. Data-Driven Digital</h2>
+
+                <div class="grid md:grid-cols-2 gap-8 items-start">
+
+                    <div class="bg-gray-800 p-6 rounded-lg border border-red-500/50">
+
+                        <h3 class="text-xl font-bold text-center text-red-400 mb-4">Radio (The Old Way)</h3>
+
+                        <ul class="space-y-3 list-disc list-inside text-gray-300">
+
+                            <li><span class="font-bold">Broad Targeting:</span> "Spray and pray" approach hoping to hit the right listeners.</li>
+
+                            <li><span class="font-bold">Zero Measurability:</span> No way to know who heard your ad or if they visited.</li>
+
+                            <li><span class="font-bold">Unprovable ROI:</span> Impossible to connect ad spend directly to revenue.</li>
+
+                            <li><span class="font-bold">High Waste:</span> Paying to reach thousands of people outside your target customer profile.</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg border border-green-500/50">
+
+                        <h3 class="text-xl font-bold text-center text-green-400 mb-4">Digital (The New Way)</h3>
+
+                         <ul class="space-y-3 list-disc list-inside text-gray-300">
+
+                            <li><span class="font-bold">Hyper-Targeted:</span> Reach customers by age, location, and specific interests (like "Zydeco" or "Hookah").</li>
+
+                            <li><span class="font-bold">Total Measurability:</span> Track every click, offer redemption, and booking inquiry.</li>
+
+                            <li><span class="font-bold">Provable ROI:</span> See exactly how many customers an ad brings in. We know if it's working.</li>
+
+                            <li><span class="font-bold">High Efficiency:</span> Every dollar is aimed at someone who is already looking for what you offer.</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 17: Case Studies -->
+
+        <div id="slide-17" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Proof in the Market: Real-World Case Studies</h2>
+
+                <div class="grid md:grid-cols-2 gap-8">
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3">Kogi BBQ (Los Angeles)</h3>
+
+                        <p class="text-gray-400 mb-2">Pioneered the food truck craze by marketing a unique Korean-Mexican fusion.</p>
+
+                        <p><strong class="text-blue-400">Digital Strategy:</strong> Used Twitter to announce truck locations in real-time, creating a "chase" that built a massive, loyal community and national press.</p>
+
+                        <p class="mt-3 font-semibold text-white">Takeaway for Us: A unique fusion brand (like R&B/Zydeco) can build a cult following by using digital channels to create a direct connection with customers.</p>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3">Three Dots and a Dash (Chicago)</h3>
+
+                        <p class="text-gray-400 mb-2">A high-end tiki bar that stands out in one of the world's most competitive cocktail markets.</p>
+
+                        <p><strong class="text-blue-400">Digital Strategy:</strong> Focused on creating highly "Instagrammable" experiences with unique glassware and presentations. Their social media is fueled almost entirely by user-generated content.</p>
+
+                        <p class="mt-3 font-semibold text-white">Takeaway for Us: Validates our focus on creating unique, shareable experiences. Our customers will become our most powerful marketers.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <!-- Slide 18: Timeline -->
+
+        <div id="slide-18" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Proposed Timeline & Milestones</h2>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-blue-400">Phase 1: Foundation (Days 1-30)</h3>
+
+                        <ul class="text-left list-disc list-inside text-gray-300">
+
+                            <li>Finalize Brand Strategy</li>
+
+                            <li>Website Design & Development</li>
+
+                            <li>Technical SEO Setup</li>
+
+                            <li>Social Media Profile Audit</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-blue-400">Phase 2: Content Launch (Days 31-60)</h3>
+
+                        <ul class="text-left list-disc list-inside text-gray-300">
+
+                            <li>Launch New "Two-in-One" Website</li>
+
+                            <li>Publish 4 Initial Blog Posts</li>
+
+                            <li>Launch First Targeted Ad Campaigns</li>
+
+                            <li>Begin Weekly Specials Promotion</li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-3 text-blue-400">Phase 3: Growth & Optimization (Days 61-90+)</h3>
+
+                        <ul class="text-left list-disc list-inside text-gray-300">
+
+                            <li>Weekly Performance Reporting</li>
+
+                            <li>A/B Test Ad Creatives</li>
+
+                            <li>Ongoing Blog Content Creation</li>
+
+                            <li>Begin SEO Link Building</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+        <!-- Slide 19: Pricing -->
+
+        <div id="slide-19" class="slide">
+
+            <div class="slide-content min-h-[80vh] bg-gray-900 rounded-2xl p-8 md:p-12 shadow-2xl">
+
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8">Proposed Investment & Pricing</h2>
+
+                <div class="grid md:grid-cols-3 gap-8">
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-4 text-center text-green-400">One-Time Setup</h3>
+
+                        <div class="text-center">
+
+                            <p class="text-5xl font-black">$4,500</p>
+
+                            <ul class="mt-4 text-left list-disc list-inside text-gray-300">
+
+                                <li>Full Website Design & Development</li>
+
+                                <li>SEO & Analytics Setup</li>
+
+                                <li>Social Media Profile Optimization</li>
+
+                                <li>Initial Ad Campaign Creation</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-4 text-center text-green-400">Monthly Retainer</h3>
+
+                        <div class="text-center">
+
+                            <p class="text-5xl font-black">$1,775<span class="text-lg text-gray-400">/mo</span></p>
+
+                            <ul class="mt-4 text-left list-disc list-inside text-gray-300">
+
+                                <li>Ongoing SEO & Content Strategy</li>
+
+                                <li>2 Blog Posts Per Month</li>
+
+                                <li>Social Media Management</li>
+
+                                <li>Ad Campaign Management</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="bg-gray-800 p-6 rounded-lg">
+
+                        <h3 class="font-bold text-xl mb-4 text-center text-green-400">Recommended Ad Spend</h3>
+
+                        <div class="text-center">
+
+                            <p class="text-5xl font-black">$1,500<span class="text-lg text-gray-400">/mo</span></p>
+
+                            <ul class="mt-4 text-left list-disc list-inside text-gray-300">
+
+                                <li>Paid directly to Google/Facebook</li>
+
+                                <li>Targets high-intent customers</li>
+
+                                <li>Fully trackable for ROI</li>
+
+                                <li>Adjustable based on performance</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 20: Ownership -->
+
+        <div id="slide-20" class="slide">
+
+             <div class="slide-content text-center min-h-[80vh] flex flex-col justify-center items-center bg-gray-900 rounded-2xl p-8 shadow-2xl">
+
+                <h2 class="text-3xl md:text-5xl font-bold">Your Ownership & Control</h2>
+
+                <p class="mt-4 text-xl text-gray-300 max-w-3xl">You retain 100% ownership of all your digital assets. We are simply the managers and strategists working on your behalf.</p>
+
+                <div class="mt-12 w-full max-w-3xl bg-gray-800 p-8 rounded-lg text-left">
+
+                    <h3 class="text-2xl font-bold text-green-400 mb-6 text-center">You Own Everything:</h3>
+
+                    <ul class="space-y-3 list-disc list-inside text-gray-200 text-lg">
+
+                        <li><span class="font-bold">The Website:</span> The domain, hosting, and all website files are yours.</li>
+
+                        <li><span class="font-bold">Ad Accounts:</span> The Google and Facebook/Instagram ad accounts will be set up in your name, with your billing information.</li>
+
+                        <li><span class="font-bold">Analytics & Data:</span> All data from Google Analytics and other platforms belongs to you.</li>
+
+                        <li><span class="font-bold">All Content & IP:</span> Every blog post, social media graphic, and piece of content we create is your intellectual property.</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Slide 21: Investment & Return -->
+
+        <div id="slide-21" class="slide">
+
+             <div class="slide-content text-center min-h-[80vh] flex flex-col justify-center items-center bg-gray-900 rounded-2xl p-8 shadow-2xl">
+
+                <h2 class="text-3xl md:text-5xl font-bold">An Investment in Trackable Growth</h2>
+
+                <p class="mt-4 text-xl text-gray-300 max-w-3xl">This isn't about spending more. It's about reallocating the budget from untrackable media to a high-ROI digital engine.</p>
+
+                <div class="mt-12 w-full max-w-3xl bg-gray-800 p-8 rounded-lg">
+
+                    <h3 class="text-2xl font-bold text-green-400 mb-6">The Digital ROI Flywheel</h3>
+
+                    <div class="flex items-center justify-between text-center">
+
+                        <div class="w-1/4">
+
+                            <p class="text-4xl">💰</p>
+
+                            <p class="font-bold mt-2">Ad Spend</p>
+
+                        </div>
+
+                        <div class="text-2xl font-bold text-gray-500">→</div>
+
+                        <div class="w-1/4">
+
+                            <p class="text-4xl">🖱️</p>
+
+                            <p class="font-bold mt-2">Tracked Clicks</p>
+
+                        </div>
+
+                        <div class="text-2xl font-bold text-gray-500">→</div>
+
+                        <div class="w-1/4">
+
+                            <p class="text-4xl">📱</p>
+
+                            <p class="font-bold mt-2">Offer Redemptions</p>
+
+                        </div>
+
+                        <div class="text-2xl font-bold text-gray-500">→</div>
+
+                        <div class="w-1/4">
+
+                            <p class="text-4xl">📈</p>
+
+                            <p class="font-bold mt-2">Proven Revenue</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <p class="mt-8 text-lg text-gray-400">Let's invest where the customers are and measure every single dollar.</p>
+
+            </div>
+
+        </div>
+
+ 
+
+        <!-- Navigation -->
+
+        <div class="mt-8 flex justify-between items-center">
+
+            <button id="prevBtn" class="bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 px-5 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition-colors">Previous</button>
+
+            <div id="slide-counter" class="text-gray-400 font-semibold">Page 1 of 21</div>
+
+            <button id="nextBtn" class="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-5 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed transition-colors">Next</button>
+
+        </div>
+
+    </div>
+
+ 
+
+    <script>
+
+        // JavaScript for presentation logic
+
+        const slides = document.querySelectorAll('.slide');
+
+        const prevBtn = document.getElementById('prevBtn');
+
+        const nextBtn = document.getElementById('nextBtn');
+
+        const slideCounter = document.getElementById('slide-counter');
+
+        let currentSlide = 0;
+
+        const totalSlides = slides.length;
+
+ 
+
+        function showSlide(n) {
+
+            slides.forEach((slide, index) => {
+
+                slide.classList.toggle('active', index === n);
+
+            });
+
+            
+
+            slideCounter.textContent = `Page ${n + 1} of ${totalSlides}`;
+
+ 
+
+            prevBtn.disabled = n === 0;
+
+            nextBtn.disabled = n === totalSlides - 1;
+
+            
+
+            // Animate progress bars on the KPI slide
+
+            if (n === 14) { // Slide 15 (0-indexed)
+
+                const bars = slides[n].querySelectorAll('.kpi-bar');
+
+                // Reset widths to 0 before setting target widths to re-trigger animation
+
+                bars.forEach(bar => bar.style.width = '0%');
+
+                setTimeout(() => {
+
+                    bars.forEach(bar => {
+
+                        const targetWidth = bar.getAttribute('data-width');
+
+                        bar.style.width = targetWidth;
+
+                    });
+
+                }, 100); // small delay to ensure reset is processed
+
+            }
+
+        }
+
+ 
+
+        function nextSlide() {
+
+            if (currentSlide < totalSlides - 1) {
+
+                currentSlide++;
+
+                showSlide(currentSlide);
+
+            }
+
+        }
+
+ 
+
+        function prevSlide() {
+
+            if (currentSlide > 0) {
+
+                currentSlide--;
+
+                showSlide(currentSlide);
+
+            }
+
+        }
+
+ 
+
+        nextBtn.addEventListener('click', nextSlide);
+
+        prevBtn.addEventListener('click', prevSlide);
+
+ 
+
+        // Initialize first slide
+
+        showSlide(currentSlide);
+
+    </script>
+
+ 
+
+</body>
+
+</html>
